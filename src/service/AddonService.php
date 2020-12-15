@@ -26,7 +26,7 @@ class AddonService
      * @param integer $rows
      * @param array $where
      * @param array $with
-     * @return void
+     * @return Collection
      * Author nf
      * Time 2020-12-10
      */
@@ -79,7 +79,7 @@ class AddonService
      * @param integer $rows
      * @param array $where
      * @param array $with
-     * @return void
+     * @return Collection
      * Author nf
      * Time 2020-12-10
      */
@@ -102,7 +102,7 @@ class AddonService
      * @param integer $rows
      * @param array $where
      * @param array $with
-     * @return void
+     * @return Collection
      * Author nf
      * Time 2020-12-10
      */
@@ -125,7 +125,7 @@ class AddonService
      * @param integer $rows
      * @param array $where
      * @param array $with
-     * @return void
+     * @return Collection
      * Author nf
      * Time 2020-12-08
      */
