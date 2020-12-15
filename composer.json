@@ -1,0 +1,32 @@
+{
+    "name": "think/addon",
+    "description": "thinkphp6.0插件服务扩展包",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ningfei",
+            "email": "1056593544@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">= 7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\addon\\": "./src"
+        },
+        "files": [
+            "./src/helper.php"
+        ]
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "\\think\\addon\\Service"
+            ],
+            "config": {
+                "addon": "src/config.php"
+            }
+        }
+    }
+}
