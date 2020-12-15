@@ -2,6 +2,7 @@
     "name": "bjyyb/think_addon",
     "description": "thinkphp6.0插件服务扩展包",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "ningfei",
